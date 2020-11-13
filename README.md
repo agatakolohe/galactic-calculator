@@ -25,21 +25,23 @@ Purpose usage, detailed explanation what is does and any other information you w
 | It should correctly create a Venus object and store user inputted age | Venus(age).toEqual(30); |
 | It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
 | It should correctly calculate the user's life expectancy on Venus | age.venusLifeExpectancy().toEqual(129.032); |
-| It should correctly return user's time left on Venus | age.timeLeftOnVenus().toEqual(208.333); |
+| It should correctly return user's time left on Venus | age.timeLeftOnVenus().toEqual(80.645); |
 
 ### Describe: Mars()
 | Test | Expect |
 | ---- | ------ |
 | It should correctly create a Mars object and store user inputted age | Mars(age).toEqual(30); |
 | It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
-| It should correctly calculate the user's life expectancy on Mars | age.marsLifeExpectancy().toEqual(129.032); |
-| It should correctly return user's time left on Mars | age.timeLeftOnMars().toEqual(208.333); |
+| It should correctly calculate the user's life expectancy on Mars | age.marsLifeExpectancy().toEqual(42.553); |
+| It should correctly return user's time left on Mars | age.timeLeftOnMars().toEqual(26.596); |
 
 ### Describe: Jupiter()
 | Test | Expect |
 | ---- | ------ |
 | It should correctly create a Jupiter object and store user inputted age | Jupiter(age).toEqual(30); |
 | It should correctly calculate the user's age on Jupiter| age.jupiterAge().toEqual(2.529); |
+| It should correctly calculate the user's life expectancy on Jupiter | age.jupiterLifeExpectancy().toEqual(129.032); |
+| It should correctly return user's time left on Jupiter | age.timeLeftOnJupiter().toEqual(208.333); |
 
 
 ## Setup/Installation Requirements
