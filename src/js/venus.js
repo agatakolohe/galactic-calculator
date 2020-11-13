@@ -8,7 +8,7 @@ export default class Venus {
   venusLifeExpectancy() {
     return 80/.62;
   }
-  timeLeftOnVenys () {
+  timeLeftOnVenus () {
     return (this.venusLifeExpectancy() - this.venusAge());
   }
 }
