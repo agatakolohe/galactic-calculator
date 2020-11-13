@@ -12,6 +12,6 @@ describe('GalacticCalculator', () => {
     expect(reuseableCalculator.age).toEqual(30);
   });
   test('should correctly calculate the users age on Mercury', () => {
-    expect(reuseableCalculator.mercuryAge()).toEqual(120);
+    expect(reuseableCalculator.mercuryAge()).toEqual(125);
   })
 });
