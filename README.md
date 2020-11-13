@@ -10,10 +10,11 @@ Purpose usage, detailed explanation what is does and any other information you w
 
 ## Specifications
 
-### Describe: functionName()
+### Describe: GalacticCalculator()
 
 | Test | Expect |
 | ---- | ------ |
+| It should correctly create a galactic calculator object | GalacticCalculator().toEqual(age); |
 
 
 ## Setup/Installation Requirements
