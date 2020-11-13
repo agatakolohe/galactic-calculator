@@ -15,6 +15,6 @@ describe('GalacticCalculator', () => {
     expect(reuseableCalculator.mercuryAge()).toEqual(125);
   });
   test('should correctly calculate the users age on Venus', () => {
-    expect(reuseableCalculator.venusAge()).toEqual(48);
+    expect(reuseableCalculator.venusAge()).toBeCloseTo(48.387);
   });
 });
