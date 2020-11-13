@@ -16,8 +16,8 @@ Purpose usage, detailed explanation what is does and any other information you w
 | ---- | ------ |
 | It should correctly create a galactic calculator object and store user inputted age | GalacticCalculator(age).toEqual(30); |
 | It should correctly calculate the user's age on Mercury| age.mercuryAge().toEqual(125); |
-| It should correctly calculate the user's age on Venus| age.venusAge.toEqual(48); |
-
+| It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
+| It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
 
 
 ## Setup/Installation Requirements

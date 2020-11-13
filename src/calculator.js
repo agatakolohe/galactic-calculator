@@ -8,5 +8,8 @@ export default class GalacticCalculator {
   venusAge() {
     return this.age / .62;
   }
+  marsAge() {
+    return this.age / 1.88;
+  }
 }
 
