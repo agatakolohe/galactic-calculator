@@ -14,7 +14,7 @@ describe('Jupiter', () => {
     expect(reuseableJupiter.jupiterAge()).toBeCloseTo(2.529);
   });
   test('should correctly calculate the users life expectancy on Jupiter', () => {
-    expect(reuseableJupiter.jupiterLifeExpectancy()).toBeCloseTo(42.553);
+    expect(reuseableJupiter.jupiterLifeExpectancy()).toBeCloseTo(6.745);
   });
   // test('should correctly calculate the users time left on Mars', () => {
   //   expect(reuseableMars.timeLeftOnMars()).toBeCloseTo(26.596);
