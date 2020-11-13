@@ -13,4 +13,7 @@ describe('Venus', () => {
   test('should correctly calculate the users age on Venus', () => {
     expect(reuseableVenus.venusAge()).toBeCloseTo(48.387);
   });
+  test('should correctly calculate the users life expectancy on Mercury', () => {
+    expect(reuseableVenus.venusLifeExpectancy()).toBeCloseTo(333.333);
+  });
 });
