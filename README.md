@@ -17,6 +17,7 @@ Purpose usage, detailed explanation what is does and any other information you w
 | It should correctly create a Mercury object and store user inputted age | Mercury(age).toEqual(30); |
 | It should correctly calculate the user's age on Mercury | age.mercuryAge().toEqual(125); |
 | It should correctly calculate the user's life expectancy on Mercury | age.mercuryLifeExpectancy().toEqual(333.333); |
+| It should correctly return user's time left on Mercury | age.timeLeftOnMercury().toEqual(208.333); |
 
 ### Describe: Venus()
 | It should correctly create a Venus object and store user inputted age | Venus(age).toEqual(30); |
