@@ -18,6 +18,6 @@ describe('GalacticCalculator', () => {
     expect(reuseableCalculator.venusAge()).toBeCloseTo(48.387);
   });
   test('should correctly calculate the users age on Mars', () => {
-    expect(reuseableCalculator.marsAge()).toBeCloseTo(15);
+    expect(reuseableCalculator.marsAge()).toBeCloseTo(15.957);
   });
 });
