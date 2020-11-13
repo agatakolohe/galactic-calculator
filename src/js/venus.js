@@ -3,7 +3,7 @@ export default class Venus {
     this.age = age;
   }
   venusAge() {
-    return this.age / .24;
+    return this.age / .62;
   }
   venusLifeExpectancy() {
     return 80/.24;
