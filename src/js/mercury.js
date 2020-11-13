@@ -5,4 +5,7 @@ export default class Mercury {
   mercuryAge() {
     return this.age / .24;
   }
+  mercuryLifeExpectancy() {
+    return mercuryLifeExpectancy = 80/.24;
+  }
 }
