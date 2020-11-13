@@ -14,7 +14,9 @@ Purpose usage, detailed explanation what is does and any other information you w
 
 | Test | Expect |
 | ---- | ------ |
-| It should correctly create a galactic calculator object | GalacticCalculator().toEqual(age); |
+| It should correctly create a galactic calculator object and store user inputted age | GalacticCalculator().toEqual(age); |
+| It should correctly calculate the user's age on Mercury| GalacticCalculator(30).toEqual(125); |
+
 
 
 ## Setup/Installation Requirements
