@@ -11,5 +11,12 @@ export default class Jupiter {
   timeLeftOnJupiter () {
     return (this.jupiterLifeExpectancy() - this.jupiterAge());
   }
+  youMayBeDead() {
+    if (this.timeLeftOnJupiter() <= 0){
+      return `Congratulations, technology has sufficiently advanced and you have surpassed the time projected for you to survive on Jupiter. Or it didn't, and you dead.`;
+    } else if(this.timeLeftOnJupiter() >= 0) {
+      return `Congratulations, somehow you are still alive on Jupiter.`;
+    }
+  }
 }
 
