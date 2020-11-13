@@ -24,7 +24,7 @@ Purpose usage, detailed explanation what is does and any other information you w
 | ---- | ------ |
 | It should correctly create a Venus object and store user inputted age | Venus(age).toEqual(30); |
 | It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
-| It should correctly calculate the user's life expectancy on Venus | age.VenusLifeExpectancy().toEqual(129.032); |
+| It should correctly calculate the user's life expectancy on Venus | age.venusLifeExpectancy().toEqual(129.032); |
 | It should correctly return user's time left on Venus | age.timeLeftOnVenus().toEqual(208.333); |
 
 ### Describe: Mars()
@@ -32,6 +32,8 @@ Purpose usage, detailed explanation what is does and any other information you w
 | ---- | ------ |
 | It should correctly create a Mars object and store user inputted age | Mars(age).toEqual(30); |
 | It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
+| It should correctly calculate the user's life expectancy on Mars | age.marsLifeExpectancy().toEqual(129.032); |
+| It should correctly return user's time left on Mars | age.timeLeftOnMars().toEqual(208.333); |
 
 ### Describe: Jupiter()
 | Test | Expect |
