@@ -18,6 +18,7 @@ Purpose usage, detailed explanation what is does and any other information you w
 | It should correctly calculate the user's age on Mercury| age.mercuryAge().toEqual(125); |
 | It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
 | It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
+| It should correctly calculate the user's age on Jupiter| age.jupiterAge().toEqual(2.529); |
 
 
 ## Setup/Installation Requirements
