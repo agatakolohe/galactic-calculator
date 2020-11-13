@@ -11,4 +11,4 @@ export default class Mars {
   timeLeftOnMars () {
     return (this.marsLifeExpectancy() - this.marsAge());
   }
-}
+};

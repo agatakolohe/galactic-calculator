@@ -11,5 +11,5 @@ export default class Jupiter {
   timeLeftOnJupiter () {
     return (this.jupiterLifeExpectancy() - this.jupiterAge());
   }
-}
+};
 
