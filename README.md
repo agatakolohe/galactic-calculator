@@ -10,14 +10,23 @@ Purpose usage, detailed explanation what is does and any other information you w
 
 ## Specifications
 
-### Describe: GalacticCalculator()
+### Describe: Mercury()
 
 | Test | Expect |
 | ---- | ------ |
-| It should correctly create a galactic calculator object and store user inputted age | GalacticCalculator(age).toEqual(30); |
+| It should correctly create a Mercury object and store user inputted age | Mercury(age).toEqual(30); |
 | It should correctly calculate the user's age on Mercury| age.mercuryAge().toEqual(125); |
+
+### Describe: Venus()
+| It should correctly create a Venus object and store user inputted age | Venus(age).toEqual(30); |
 | It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
+
+### Describe: Mars()
+| It should correctly create a Mars object and store user inputted age | Mars(age).toEqual(30); |
 | It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
+
+### Describe: Jupiter()
+| It should correctly create a Jupiter object and store user inputted age | Jupiter(age).toEqual(30); |
 | It should correctly calculate the user's age on Jupiter| age.jupiterAge().toEqual(2.529); |
 
 
