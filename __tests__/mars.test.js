@@ -14,7 +14,7 @@ describe('Mars', () => {
     expect(reuseableMars.marsAge()).toBeCloseTo(15.957);
   });
   test('should correctly calculate the users life expectancy on Mars', () => {
-    expect(reuseableMars.marsLifeExpectancy()).toBeCloseTo(129.032);
+    expect(reuseableMars.marsLifeExpectancy()).toBeCloseTo(42.553);
   });
   // test('should correctly calculate the users time left on Mars', () => {
   //   expect(reuseableMars.timeLeftOnMars()).toBeCloseTo(80.645);
