@@ -11,6 +11,6 @@ describe('Mercury', () => {
     expect(reuseableMercury.age).toEqual(30);
   });
   test('should correctly calculate the users age on Mercury', () => {
-    expect(reuseableMercury.mercuryAge()).toBeCloseTo(124);
+    expect(reuseableMercury.mercuryAge()).toBeCloseTo(125);
   });
 });
