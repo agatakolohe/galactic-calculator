@@ -1,5 +1,5 @@
 import { TestScheduler } from 'jest';
-import GalacticCalculator from './../src/calculator.js';
+import GalacticCalculator from '../src/calculator.js';
 
 describe('GalacticCalculator', () => {
   let reuseableCalculator;
