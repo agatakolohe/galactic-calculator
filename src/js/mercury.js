@@ -9,6 +9,6 @@ export default class Mercury {
     return 80/.24;
   }
   timeLeftOnMercury () {
-    return this.mercuryLifeExpectancy - this.mercuryAge;
+    return (this.mercuryLifeExpectancy() - this.mercuryAge());
   }
 }
