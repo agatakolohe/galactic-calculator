@@ -21,6 +21,6 @@ describe('GalacticCalculator', () => {
     expect(reuseableCalculator.marsAge()).toBeCloseTo(15.957);
   });
   test('should correctly calculate the users age on Jupiter', () => {
-    expect(reuseableCalculator.jupiterAge()).toBeCloseTo(2);
+    expect(reuseableCalculator.jupiterAge()).toBeCloseTo(2.529);
   });
 });
