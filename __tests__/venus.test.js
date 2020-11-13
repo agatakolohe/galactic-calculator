@@ -11,6 +11,6 @@ describe('Venus', () => {
     expect(reuseableVenus.age).toEqual(30);
   });
   test('should correctly calculate the users age on Venus', () => {
-    expect(reuseableVenus.venusAge()).toBeCloseTo(48);
+    expect(reuseableVenus.venusAge()).toBeCloseTo(48.387);
   });
 });
