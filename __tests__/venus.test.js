@@ -17,6 +17,6 @@ describe('Venus', () => {
     expect(reuseableVenus.venusLifeExpectancy()).toBeCloseTo(129.032);
   });
   test('should correctly calculate the users time left on Venus', () => {
-    expect(reuseableVenus.timeLeftOnVenus()).toBeCloseTo(208.33);
+    expect(reuseableVenus.timeLeftOnVenus()).toBeCloseTo(80.645);
   });
 });
