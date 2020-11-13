@@ -40,8 +40,8 @@ Purpose usage, detailed explanation what is does and any other information you w
 | ---- | ------ |
 | It should correctly create a Jupiter object and store user inputted age | Jupiter(age).toEqual(30); |
 | It should correctly calculate the user's age on Jupiter| age.jupiterAge().toEqual(2.529); |
-| It should correctly calculate the user's life expectancy on Jupiter | age.jupiterLifeExpectancy().toEqual(129.032); |
-| It should correctly return user's time left on Jupiter | age.timeLeftOnJupiter().toEqual(208.333); |
+| It should correctly calculate the user's life expectancy on Jupiter | age.jupiterLifeExpectancy().toEqual(6.745); |
+| It should correctly return user's time left on Jupiter | age.timeLeftOnJupiter().toEqual(4.215); |
 
 
 ## Setup/Installation Requirements
