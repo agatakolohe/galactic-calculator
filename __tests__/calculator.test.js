@@ -10,5 +10,8 @@ describe('GalacticCalculator', () => {
 
   test('should correctly create a galactic calculator object', () => {
     expect(reuseableCalculator.age).toEqual(30);
+  });
+  test('should correctly calculate the users age on Mercury', () => {
+    expect(reuseableCalculator.mercuryAge()).toEqual(120);
   })
 });
