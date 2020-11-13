@@ -20,14 +20,22 @@ Purpose usage, detailed explanation what is does and any other information you w
 | It should correctly return user's time left on Mercury | age.timeLeftOnMercury().toEqual(208.333); |
 
 ### Describe: Venus()
+| Test | Expect |
+| ---- | ------ |
 | It should correctly create a Venus object and store user inputted age | Venus(age).toEqual(30); |
 | It should correctly calculate the user's age on Venus| age.venusAge().toEqual(48.387); |
+| It should correctly calculate the user's life expectancy on Venus | age.VenusLifeExpectancy().toEqual(333.333); |
+| It should correctly return user's time left on Mercury | age.timeLeftOnVenus().toEqual(208.333); |
 
 ### Describe: Mars()
+| Test | Expect |
+| ---- | ------ |
 | It should correctly create a Mars object and store user inputted age | Mars(age).toEqual(30); |
 | It should correctly calculate the user's age on Mars| age.marsAge().toEqual(15.957); |
 
 ### Describe: Jupiter()
+| Test | Expect |
+| ---- | ------ |
 | It should correctly create a Jupiter object and store user inputted age | Jupiter(age).toEqual(30); |
 | It should correctly calculate the user's age on Jupiter| age.jupiterAge().toEqual(2.529); |
 
