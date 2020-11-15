@@ -1,4 +1,4 @@
-import Mercury from '../src/js/mercury.js'
+import Mercury from './../src/js/mercury.js'
 
 describe('Mercury', () => {
   let reuseableMercury;

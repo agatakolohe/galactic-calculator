@@ -1,4 +1,4 @@
-import Venus from '../src/js/venus.js'
+import Venus from './../src/js/venus.js'
 
 describe('Venus', () => {
   let reuseableVenus;

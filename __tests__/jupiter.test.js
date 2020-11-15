@@ -1,4 +1,4 @@
-import Jupiter from '../src/js/jupiter.js'
+import Jupiter from './../src/js/jupiter.js'
 
 describe('Jupiter', () => {
   let reuseableJupiter;

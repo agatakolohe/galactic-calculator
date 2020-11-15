@@ -11,8 +11,9 @@ $(document).ready(function() {
   $("#calculator").submit(function(event) {
     event.preventDefault();
     const inputtedAge = parseInt($("input#age").val());
-    const marsAge = marsAge(inputtedAge);
-console.log(Mars);
+    const mars = new Mars(inputtedAge);
+
+console.log(mars);
 console.log(Venus);
 console.log(Jupiter);
 console.log(Mercury);
