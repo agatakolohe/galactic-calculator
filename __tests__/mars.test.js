@@ -1,4 +1,4 @@
-import Mars from './../src/js/mars.js'
+import Mars from '../src/js/mars.js'
 
 describe('Mars', () => {
   let reuseableMars;

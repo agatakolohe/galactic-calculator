@@ -67,9 +67,9 @@ Fifth indepedent project for Epicodus to demonstrate my understanding of creatin
 
 ## Known Bugs
 
-Jest was not showing test coverage information with this configuration. I removed it from my package.json and was able to see coverage table. 
+If you are using a version of Jest where the coverage directory is not automatically generated, you will need to update package.json file:
 
-`"jest": { "collectCoverage": true, "coverageReporters": ["html"]},`
+`"scripts": {..."test": "jest --coverage"},"jest": { "collectCoverage": true, "coverageReporters": ["html"]},`
 
 ## Support and Contact Details
 
