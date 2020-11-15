@@ -63,7 +63,7 @@ Fifth indepedent project for Epicodus to demonstrate my understanding of creatin
 - Open your terminal and use the command `git clone https://github.com/agatakolohe/galactic-calculator.git` into the directory you would like to clone the repository
 - Open in text editor to view code and make changes
   - Open terminal or GitBash, navigate to the project directory.
-  - Run the command `npm run install` to download and install all necessary packaches for the project to function. 
+  - Run the command `npm run install` to download and install all necessary packages for the project to function. 
 
 ## Known Bugs
 
