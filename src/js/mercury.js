@@ -11,4 +11,4 @@ export default class Mercury {
   timeLeftOnMercury () {
     return (this.mercuryLifeExpectancy() - this.mercuryAge());
   }
-};
+}

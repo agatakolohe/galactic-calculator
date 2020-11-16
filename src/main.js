@@ -23,7 +23,7 @@ $(document).ready(function() {
     const timeLeftOnJupiter = jupiter.timeLeftOnJupiter();
     const mercuryResponse = mercury.mercuryAge();
     const timeLeftOnMercury = mercury.timeLeftOnMercury();
-    const congrats= `Congratulations! Technology has sufficiently advanced and you have surpassed the time projected for you to survive on on each planet. Or it didn't, and you dead.`
+    const congrats= `Congratulations! Technology has sufficiently advanced and you have surpassed the time projected for you to survive on on each planet. Or it didn't, and you dead.`;
     $("#congrats").text(congrats);
     $("#mars-response").text(`Mars: ${marsResponse} years old. You have ${timeLeftOnMars} time left on Mars!`);
     $("#jupiter-response").text(`Jupiter: ${jupiterResponse} years old. You have ${timeLeftOnJupiter} time left on Jupiter!`);
