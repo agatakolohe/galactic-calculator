@@ -19,6 +19,9 @@ describe('Mars', () => {
     expect(reuseableMars.marsLifeExpectancy()).toBeGreaterThanOrEqual(42.55);
   });
   test('should correctly check if the user is dead on Mars', () => {
-    expect(youDead.timeLeftOnMars()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -500 years, for you to survive on Mars. Or it didn't, and you have been dead for -500 years.`);
+    expect(youDead.timeLeftOnMars()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -63.82978723404256 years, for you to survive on Mars. Or it didn't, and you have been dead for -63.82978723404256 years.`);
+  });
+  test('should correctly check if alive on Mercury', () => {
+    expect(reuseableMars.timeLeftOnMars()).toEqual(`You have 208.33333333333337 years left to live on Mars. Treat yo self!`);
   });
 });
