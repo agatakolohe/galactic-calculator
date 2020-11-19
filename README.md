@@ -66,7 +66,7 @@ Fifth independent project for Epicodus to demonstrate my understanding of creati
 - Click on the green "Code" button and copy the repository URL
 - Open your terminal and use the command `git clone https://github.com/agatakolohe/galactic-calculator.git` into the directory you would like to clone the repository
 - Open in text editor to view code and make changes
-  - Open terminal or GitBash, navigate to the project directory.
+  - Open terminal and navigate to the project directory.
   - Run the command `npm run install` to download and install all necessary packages for the project to function. 
 
   <details>
