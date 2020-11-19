@@ -21,4 +21,7 @@ describe('Venus', () => {
   test('should correctly check if the user is dead on Venus', () => {
     expect(youDead.timeLeftOnVenus()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -193.54838709677418 years, for you to survive on Venus. Or it didn't, and you have been dead for -193.54838709677418 years.`);
   });
+  test('should correctly check if alive on Venus', () => {
+    expect(reuseableVenus.timeLeftOnVenus()).toEqual(`You have 80 years left to live on Venus. Treat yo self!`);
+  });
 });
