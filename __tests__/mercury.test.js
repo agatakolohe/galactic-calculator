@@ -21,4 +21,7 @@ describe('Mercury', () => {
   test('should correctly check if the user is dead on Mercury', () => {
     expect(youDead.timeLeftOnMercury()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -500 years, for you to survive on Mercury. Or it didn't, and you have been dead for -500 years.`);
   });
+  test('should correctly check if alive on Mercury', () => {
+    expect(reuseableMercury.timeLeftOnMercury()).toEqual(`You have 80.64516129032258 years left to live on Mercury. Treat yo self!`);
+  });
 });
