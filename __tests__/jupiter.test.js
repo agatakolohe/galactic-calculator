@@ -19,6 +19,6 @@ describe('Jupiter', () => {
     expect(reuseableJupiter.jupiterLifeExpectancy()).toBeGreaterThanOrEqual(6.74);
   });
   test('should correctly check if the user is dead on Jupiter', () => {
-    expect(youDead.timeLeftOnJupiter()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -500 years, for you to survive on Jupiter. Or it didn't, and you have been dead for -500 years.`);
+    expect(youDead.timeLeftOnJupiter()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -10.11804384485666 years, for you to survive on Jupiter. Or it didn't, and you have been dead for -10.11804384485666 years.`);
   });
 });
