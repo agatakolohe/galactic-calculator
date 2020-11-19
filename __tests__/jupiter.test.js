@@ -2,9 +2,11 @@ import Jupiter from './../src/js/jupiter.js'
 
 describe('Jupiter', () => {
   let reuseableJupiter;
+  let youDead;
 
   beforeEach(() => {
     reuseableJupiter = new Jupiter(30);
+    youDead = new Jupiter(200);
   });
 
   test('should correctly create a Jupiter object', () => {
@@ -16,7 +18,7 @@ describe('Jupiter', () => {
   test('should correctly calculate the users life expectancy on Jupiter', () => {
     expect(reuseableJupiter.jupiterLifeExpectancy()).toBeGreaterThanOrEqual(6.74);
   });
-  test('should correctly calculate the users time left on Jupiter', () => {
-    expect(reuseableJupiter.timeLeftOnJupiter()).toBeGreaterThanOrEqual(4.21);
+  test('should correctly check if the user is dead on Jupiter', () => {
+    expect(youDead.timeLeftOnJupiter()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -500 years, for you to survive on Jupiter. Or it didn't, and you have been dead for -500 years.`);
   });
 });

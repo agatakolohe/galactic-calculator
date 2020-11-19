@@ -9,7 +9,12 @@ export default class Jupiter {
     return 80/11.86;
   }
   timeLeftOnJupiter () {
-    return (this.jupiterLifeExpectancy() - this.jupiterAge());
+    let result = (this.jupiterLifeExpectancy() - this.jupiterAge());
+    if (result < 0) {
+      return `Congratulations, technology has sufficiently advanced and you have surpassed the time projected, ${result} years, for you to survive on Jupiter. Or it didn't, and you have been dead for ${result} years.`
+    } else {
+      return `You have ${result} years left to live on Jupiter. Treat yo self!`
+    }
   }
 }
 
