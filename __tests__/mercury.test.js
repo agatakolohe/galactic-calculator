@@ -19,6 +19,6 @@ describe('Mercury', () => {
     expect(reuseableMercury.mercuryLifeExpectancy()).toBeGreaterThanOrEqual(333.33);
   });
   test('should correctly check if the user is dead on Mercury', () => {
-    expect(youDead.timeLeftOnMercury()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -193.54838709677418 years, for you to survive on Mercury. Or it didn't, and you have been dead for -193.54838709677418 years.`);
+    expect(youDead.timeLeftOnMercury()).toEqual(`Congratulations, technology has sufficiently advanced and you have surpassed the time projected, -500 years, for you to survive on Mercury. Or it didn't, and you have been dead for -500 years.`);
   });
 });
