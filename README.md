@@ -72,13 +72,13 @@ Fifth independent project for Epicodus to demonstrate my understanding of creati
   <details>
   <summary><strong>PC Users Please Read</strong></summary>
 
-    - If you are on a PC, in package.json please remove `;` and replace with ` & ` in `"scripts: { "start":`
+    If you are on a PC, in package.json please remove `;` and replace with ` & ` in `"scripts: { "start":`
 
-    CHANGE
+      CHANGE
 
     `"scripts": {... "start": "npm run build; webpack-dev-server --open --mode development",`
 
-    TO
+      TO
 
     `"scripts": {... "start": "npm run build & webpack-dev-server --open --mode development",`
 
